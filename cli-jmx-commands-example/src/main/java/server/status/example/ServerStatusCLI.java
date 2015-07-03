@@ -15,7 +15,7 @@ public class ServerStatusCLI {
 	private String host = "127.0.0.1";
 	private int port = 9999;
 	private String user = "admin";
-	private String password = "Kt@25m69";
+	private String password = "password";
 
 	private HashMap<String, String> commandResult = new HashMap<String, String>();
 	private CommandContext ctx;

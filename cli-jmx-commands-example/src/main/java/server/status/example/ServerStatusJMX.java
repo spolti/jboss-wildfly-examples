@@ -19,8 +19,8 @@ public class ServerStatusJMX {
 
 	private String host = "10.96.33.114";
 	private int port = 9999;
-	private String user = "fspolti";
-	private String password = "Kt@25m69";
+	private String user = "username";
+	private String password = "password";
 
 	// mapping credentials
 	HashMap<String, String[]> propEnv = new HashMap<String, String[]>();
