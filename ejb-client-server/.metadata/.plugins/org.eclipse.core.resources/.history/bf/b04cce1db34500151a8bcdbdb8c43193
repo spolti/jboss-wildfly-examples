@@ -1,0 +1,39 @@
+package com.examples.ejb.client;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Hashtable;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+import com.exmaples.ejb.server.EJBServer;
+
+public class EJBClient {
+
+	public static void main(String args[]) throws NamingException, FileNotFoundException, IOException, InterruptedException {
+
+		System.out.println("EJB client.");
+		// listSystemProperties();
+		callEJBServer();
+
+	}
+
+	public static void callEJBServer() throws NamingException, FileNotFoundException, IOException, InterruptedException {
+
+        final Hashtable jndiProperties = new Hashtable();
+        jndiProperties.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
+        Context context = new InitialContext(jndiProperties);
+        
+//        int cont = 0;
+//        while (cont <= THREADS) {
+            EJBServer ejb = (EJBServer) context.lookup("ejb:/ejb-server/EJBServerImpl!com.exmaples.ejb.server.EJBServer");
+            System.out.println("Result: " + ejb.execute());
+//   
+//            cont++;
+//        }
+             
+	}
+
+}

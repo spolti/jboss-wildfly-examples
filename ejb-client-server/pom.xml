@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.examples</groupId>
+	<artifactId>ejb-client-server</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	<name>ejb-example</name>
+	<description>
+		EJB remote exampls using threads
+	</description>
+	<modules>
+		<module>ejb-client</module>
+		<module>ejb-server</module>
+	</modules>
+</project>

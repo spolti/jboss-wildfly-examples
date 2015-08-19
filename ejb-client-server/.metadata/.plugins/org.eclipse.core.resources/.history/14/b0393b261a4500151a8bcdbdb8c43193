@@ -1,0 +1,12 @@
+package com.exmaples.ejb.server;
+
+public class EJBServerImpl implements EJBServer {
+
+	public String execute() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+}

@@ -1,0 +1,9 @@
+remote.connectionprovider.create.options.org.xnio.Options.SSL_ENABLED=false
+remote.connections=one
+remote.connection.one.host=10.10.178.14
+remote.connection.one.port=4447
+remote.connection.one.connect.options.org.xnio.Options.SASL_POLICY_NOANONYMOUS=false
+remote.connection.one.username=ejb
+remote.connection.one.password=redhat1!
+remote.connection.one.connect.options.org.jboss.remoting3.RemotingOptions.MAX_INBOUND_MESSAGES=1000
+remote.connection.one.connect.options.org.jboss.remoting3.RemotingOptions.MAX_OUTBOUND_MESSAGES=1000

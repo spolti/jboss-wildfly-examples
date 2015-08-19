@@ -1,0 +1,15 @@
+package com.exmaples.ejb.server;
+
+
+@Stateless(name="Hello")
+@Remote(Hello.class)
+public class EJBServerImpl implements EJBServer {
+
+	public String execute() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+}

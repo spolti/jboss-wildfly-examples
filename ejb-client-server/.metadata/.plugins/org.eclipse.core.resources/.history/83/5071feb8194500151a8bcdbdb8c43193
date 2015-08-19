@@ -1,0 +1,5 @@
+package com.exmaples.ejb.server;
+
+public class Hello {
+
+}
