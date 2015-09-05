@@ -1,7 +1,0 @@
-package com.examples.ejb.client;
-
-public interface EJBServer {
-
-	public String execute();
-	
-}

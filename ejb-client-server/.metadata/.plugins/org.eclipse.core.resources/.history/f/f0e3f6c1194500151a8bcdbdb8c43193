@@ -1,7 +1,0 @@
-package com.exmaples.ejb.server;
-
-public interface Hello {
-
-	public String sayHello();
-	
-}
