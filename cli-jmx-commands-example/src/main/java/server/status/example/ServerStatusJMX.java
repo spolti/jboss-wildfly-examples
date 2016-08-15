@@ -17,7 +17,7 @@ import javax.management.remote.JMXServiceURL;
 
 public class ServerStatusJMX {
 
-	private String host = "10.96.33.114";
+	private String host = "127.0.0.1";
 	private int port = 9999;
 	private String user = "username";
 	private String password = "password";
